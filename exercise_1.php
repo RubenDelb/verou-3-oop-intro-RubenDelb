@@ -18,7 +18,7 @@ class Beverage
     // Make a getInfo function which returns "This beverage is <temperature> and <color>."
     public function getInfo()
     {
-        return 'This beverage is ' . $this->temperature . ' and ' . $this->color . '.';
+        return "This beverage is {$this->temperature} and {$this->color} .";
     }
 }
 
@@ -28,8 +28,8 @@ $cola = new Beverage('black', 2);
 
 //  print the getInfo on the screen.
 
-echo $cola->getInfo();
+// echo $cola->getInfo();
 
 //  Print the temperature on the screen.
 
-echo "<br> {$cola->temperature}";
+// echo "<br> {$cola->temperature} <br>";
