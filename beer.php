@@ -1,6 +1,6 @@
 <?php
 
-require './exercise_1.php';
+require './exercise1.php';
 
 // Make class beer that extends from Beverage.
 class Beer extends Beverage
